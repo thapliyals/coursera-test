@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Header */
+#header-nav {
+    background-color: grey;
+    border-radius: 0;
+    border: 3px solid black;
+  }
+
+.navbar-brand {
+    margin: 1em;
+    padding-top: 1em 1em 1em 1em;
+} 
+.navbar-brand h1 { /* Restaurant name */
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 4.0rem;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 0.75;
+  }
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -40px;
+}
+#nav-list{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#nav-list span{
+    font-size: 1.8rem;
+}
+#main-content #content-head {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+}
+#menuitem{
+    background-color: grey;
+    height: 1000px;
+}
+#menuitem #itemhead{
+    padding: 0.5em;
+    padding-top: 0.7em;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+}
+#menuitem #itemdesc{
+    padding: 0.5em;
+    font-size: 2.0rem;
+    font-style: italic;
+    text-shadow: 1px 1px 1px #222;
+}
